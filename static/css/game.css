@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+}
+#game-page-container {
+  background: #3F6826;
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+}
+#game-page-container .game-left {
+  width: 75%;
+  height: 100%;
+  float: left;
+}
+#game-page-container .game-left #game-canvas {
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+#game-page-container .game-right {
+  width: 25%;
+  height: 100%;
+  float: right;
+  padding-left: 40px;
+}
+#game-page-container .game-right #board-canvas {
+  width: 100%;
+  height: 100%;
+  background: #000;
+}

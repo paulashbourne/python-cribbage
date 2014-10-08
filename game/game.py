@@ -1,6 +1,7 @@
 from deck import Deck
 from hand import Hand
 from peggingCounter import PeggingCounter
+from ai import AI
 
 class Game():
 
@@ -53,6 +54,7 @@ class Round():
         while len(playerHand) + len(computerHand) > 0:
             if playerTurn:
                 self.playerHand. 
+            else 
     
     def depositToCrib(hand, cards):
         for c in cards:

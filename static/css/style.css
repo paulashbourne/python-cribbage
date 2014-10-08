@@ -1,0 +1,30 @@
+/* 
+    Document   : style.css
+    Created on : 18-Dec-2013, 9:17:57 PM
+    Author     : Paul Ashbourne
+    Description:
+        For use exclusively on websites associated with the domains paulashbourne.ca and paulashbourne.com. All other uses prohibited.
+*/
+
+root {
+    display: block;
+}
+
+body {
+    background: url(/static/img/cream_dust.png) repeat 0 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: Ubuntu;
+    color:#333333;
+}
+
+p {
+    font-size:22px;
+    color:#666666;
+}
+
+a {
+    color:#336699;
+}
