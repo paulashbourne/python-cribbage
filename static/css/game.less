@@ -18,31 +18,37 @@ body {
   height: 100%;
   padding: 40px;
 
-  .game-left {
-    width: 75%;
+  .score-container {
+    width: 20%;
     height: 100%;
     float: left;
-
-    #game-canvas {
-      width: 100%;
-      height: 100%;
-      background: #000;
-    }
-
   }
 
-  .game-right {
-    width: 25%;
+  .game-container {
+    width: 60%;
+    height: 100%;
+    float: left;
+  }
+
+  .board-container {
+    width: 20%;
     height: 100%;
     float: right;
-    padding-left: 40px;
-    
-    #board-canvas {
-      width: 100%;
-      height: 100%;
-      background: #000;
-    }
+    background-image: url("/static/img/boardbackground.jpg");
+  }
 
+  .score-container {
+    position: relative;
+  }
+
+  .score-canvas {
+    background-image: url("/static/img/boardbackground.jpg");
+  }
+
+  #p1-score-canvas {
+    position: absolute;
+    bottom: 0;
+    left: 0;
   }
 
 }

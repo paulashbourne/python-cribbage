@@ -1,18 +1,22 @@
 {% extends 'base.html' %}
 {% block stylesheets %}
-<link href="/static/css/game.css" rel="stylesheet" type="text/css"/>
+<link href="/static/css/game.css" rel="stylesheet" type="text/css">
 {% end %}
 {% block scripts %}
-  <script src="/static/js/lib/jcanvas.min.js" type="text/javascript"/>
-  <script src="/static/js/cribbage.js" type="text/javascript"/>
+<script src="/static/js/lib/jcanvas.js" type="text/javascript"></script>
+<script src="/static/js/cribbage.js" type="text/javascript"></script>
 {% end %}
 
 {% block page_content %}
 <div id="game-page-container">
-  <div class="game-left">
+  <div class="score-container">
+    <canvas id="p2-score-canvas" class="score-canvas"></canvas>
+    <canvas id="p1-score-canvas" class="score-canvas"></canvas>
+  </div>
+  <div class="game-container">
     <canvas id="game-canvas"></canvas>
   </div>
-  <div class="game-right">
+  <div class="board-container">
     <canvas id="board-canvas"></canvas>
   </div>
 </div>
