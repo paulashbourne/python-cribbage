@@ -36,7 +36,12 @@ body {
 #game-page-container .score-canvas {
   background-image: url("/static/img/boardbackground.jpg");
 }
-#game-page-container #p1-score-canvas {
+#game-page-container #p1-score-container,
+#game-page-container #p2-score-container {
+  width: 100%;
+  height: 15%;
+}
+#game-page-container #p1-score-container {
   position: absolute;
   bottom: 0;
   left: 0;
